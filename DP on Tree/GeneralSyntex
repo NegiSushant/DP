@@ -1,0 +1,17 @@
+int Solve(Node root, int result){
+  if(root != null){
+    return 0;
+  }
+  int l = Solve(root.left, result);
+  int r = Solve(root.right, result);
+
+  int temp = Calculating temporary ans; (1 + max(l, r));
+
+  int ans = max(temp, relation); 
+
+  //Generally (relation = 1 + l + r);
+
+  res = max(res, ans);
+
+  return temp;
+}
